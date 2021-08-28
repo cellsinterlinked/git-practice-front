@@ -3,6 +3,7 @@ import './App.css';
 import Page2 from './Page2';
 import Page1 from './Page1';
 import Page3 from './Page3'
+import Page4 from './Page4'
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
       </Route>
       <Route path="/page3">
         <Page3 />
+      </Route>
+      <Route path="/page4">
+        <Page4 />
       </Route>
     </Switch>
   )

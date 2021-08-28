@@ -1,7 +1,8 @@
 import React from 'react';
 
 const Page2 = () => {
-  return (
+
+ return (
     <div className="header">Replace this code</div>
   )
 }
