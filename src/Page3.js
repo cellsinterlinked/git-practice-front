@@ -2,7 +2,7 @@ import React from 'react';
 
 const Page3 = () => {
   return (
-    <div>Page 3</div>
+    <div className="header">Added in second Branch</div>
   )
 }
 
