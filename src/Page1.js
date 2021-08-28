@@ -2,7 +2,7 @@ import React from 'react'
 
 const Page1 = () => {
   return(
-    <div>This is page 1</div>
+    <div className="header">Keep This code</div>
   )
 }
 

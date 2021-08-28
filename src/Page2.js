@@ -2,7 +2,7 @@ import React from 'react';
 
 const Page2 = () => {
   return (
-    <div>This is page 2</div>
+    <div className="header">Replace this code</div>
   )
 }
 

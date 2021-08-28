@@ -26,6 +26,7 @@ function App() {
     <Router>
       <main>
         {routes}
+        <p>Code that needs to be removed </p>
       </main>
     </Router>
     
