@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Page2 from './Page2';
 import Page1 from './Page1';
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
+import Page3 from './Page3'
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 function App() {
 
@@ -15,6 +16,9 @@ function App() {
       </Route>
       <Route path="/page2">
         <Page2 />
+      </Route>
+      <Route path="/page3">
+        <Page3 />
       </Route>
     </Switch>
   )
